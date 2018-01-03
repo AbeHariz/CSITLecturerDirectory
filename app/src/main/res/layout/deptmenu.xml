@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lbl_sbdpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbl_selectbydept"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="SELECT DEPARTMENTS"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dpt_se"
+            android:layout_width="197dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="SOFTWARE ENGINEERING" />
+
+        <Button
+            android:id="@+id/dpt_sn"
+            android:layout_width="197dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="System Networking" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dpt_is"
+            android:layout_width="193dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Information System" />
+
+        <Button
+            android:id="@+id/dpt_gm"
+            android:layout_width="193dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Graphics Multimedia"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>
